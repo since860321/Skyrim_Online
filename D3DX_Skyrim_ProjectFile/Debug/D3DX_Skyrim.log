@@ -1,0 +1,139 @@
+﻿빌드 시작: 2017-02-09 오후 11:38:53
+     1>2 노드의 "G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\D3DX_Skyrim.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\D3DX_Skyrim.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "Debug\D3DX_Skyrim.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\D3DX_Skyrim.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\D3DX_Skyrim.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cOctree.cpp cOctreeNode.cpp cAutoReleasePool.cpp cAxis.cpp cGrid.cpp cLight.cpp cGameTime.cpp cObjFileMesh.cpp cObjParser.cpp BaseBoneHierachy.cpp BaseSkinnedMesh.cpp cSoundMgr.cpp cObject.cpp cVisibleObject.cpp cActiveObject.cpp cCharacter.cpp cPlayerCharacter.cpp cEnemyCharacter.cpp cStaticObject.cpp cTerrain.cpp cTerrainObject.cpp cSKybox.cpp cUnvisibleObject.cpp cCamera.cpp cFrustum.cpp cMainGame.cpp cDevice.cpp D3DX_Skyrim.cpp cNetworkMgr.cpp cResourceMgr.cpp CSprite.cpp cInventory.cpp cMenuBar.cpp cStateBar.cpp cCharacterDamage.cpp
+         cCharacterDamage.cpp
+         cStateBar.cpp
+         cMenuBar.cpp
+         cInventory.cpp
+         CSprite.cpp
+         cResourceMgr.cpp
+         cNetworkMgr.cpp
+         D3DX_Skyrim.cpp
+         cDevice.cpp
+         cMainGame.cpp
+         cFrustum.cpp
+         cCamera.cpp
+         cUnvisibleObject.cpp
+         cSKybox.cpp
+         cTerrainObject.cpp
+         cTerrain.cpp
+         cStaticObject.cpp
+         cEnemyCharacter.cpp
+         cPlayerCharacter.cpp
+         cCharacter.cpp
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         cActiveObject.cpp
+         cVisibleObject.cpp
+         cObject.cpp
+         cSoundMgr.cpp
+         BaseSkinnedMesh.cpp
+         BaseBoneHierachy.cpp
+         cObjParser.cpp
+         cObjFileMesh.cpp
+         cGameTime.cpp
+         cLight.cpp
+         cGrid.cpp
+         cAxis.cpp
+         cAutoReleasePool.cpp
+         cOctreeNode.cpp
+         cOctree.cpp
+         코드를 생성하고 있습니다...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\D3DX_Skyrim.exe.embed.manifest.res" Debug\D3DX_Skyrim_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\D3DX_Skyrim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.lib" /MACHINE:X86 Debug\D3DX_Skyrim.exe.embed.manifest.res
+         Debug\cOctree.obj
+         Debug\cOctreeNode.obj
+         Debug\cAutoReleasePool.obj
+         Debug\cAxis.obj
+         Debug\cGrid.obj
+         Debug\cLight.obj
+         Debug\cGameTime.obj
+         Debug\cObjFileMesh.obj
+         Debug\cObjParser.obj
+         Debug\BaseBoneHierachy.obj
+         Debug\BaseSkinnedMesh.obj
+         Debug\cSoundMgr.obj
+         Debug\cObject.obj
+         Debug\cVisibleObject.obj
+         Debug\cActiveObject.obj
+         Debug\cCharacter.obj
+         Debug\cPlayerCharacter.obj
+         Debug\cEnemyCharacter.obj
+         Debug\cStaticObject.obj
+         Debug\cTerrain.obj
+         Debug\cTerrainObject.obj
+         Debug\cSKybox.obj
+         Debug\cUnvisibleObject.obj
+         Debug\cCamera.obj
+         Debug\cFrustum.obj
+         Debug\stdafx.obj
+         Debug\cMainGame.obj
+         Debug\cDevice.obj
+         Debug\D3DX_Skyrim.obj
+         Debug\cNetworkMgr.obj
+         Debug\cResourceMgr.obj
+         Debug\CSprite.obj
+         Debug\cInventory.obj
+         Debug\cMenuBar.obj
+         Debug\cStateBar.obj
+         Debug\cCharacterDamage.obj
+       Manifest:
+         "Debug\D3DX_Skyrim.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\D3DX_Skyrim.exe.embed.manifest" /manifest Debug\D3DX_Skyrim.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\D3DX_Skyrim.exe.embed.manifest.res" Debug\D3DX_Skyrim_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\D3DX_Skyrim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.lib" /MACHINE:X86 Debug\D3DX_Skyrim.exe.embed.manifest.res
+         Debug\cOctree.obj
+         Debug\cOctreeNode.obj
+         Debug\cAutoReleasePool.obj
+         Debug\cAxis.obj
+         Debug\cGrid.obj
+         Debug\cLight.obj
+         Debug\cGameTime.obj
+         Debug\cObjFileMesh.obj
+         Debug\cObjParser.obj
+         Debug\BaseBoneHierachy.obj
+         Debug\BaseSkinnedMesh.obj
+         Debug\cSoundMgr.obj
+         Debug\cObject.obj
+         Debug\cVisibleObject.obj
+         Debug\cActiveObject.obj
+         Debug\cCharacter.obj
+         Debug\cPlayerCharacter.obj
+         Debug\cEnemyCharacter.obj
+         Debug\cStaticObject.obj
+         Debug\cTerrain.obj
+         Debug\cTerrainObject.obj
+         Debug\cSKybox.obj
+         Debug\cUnvisibleObject.obj
+         Debug\cCamera.obj
+         Debug\cFrustum.obj
+         Debug\stdafx.obj
+         Debug\cMainGame.obj
+         Debug\cDevice.obj
+         Debug\D3DX_Skyrim.obj
+         Debug\cNetworkMgr.obj
+         Debug\cResourceMgr.obj
+         Debug\CSprite.obj
+         Debug\cInventory.obj
+         Debug\cMenuBar.obj
+         Debug\cStateBar.obj
+         Debug\cCharacterDamage.obj
+         D3DX_Skyrim.vcxproj -> G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\Debug\D3DX_Skyrim.exe
+       FinalizeBuildStatus:
+         "Debug\D3DX_Skyrim.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\D3DX_Skyrim.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"G:\3D Direct3D 포트폴리오 - 이형구 (Team Stack)_\D3DX_Skyrim_ProjectFile\D3DX_Skyrim.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.85
